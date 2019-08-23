@@ -30,6 +30,9 @@
                                 <state key="normal" title="Erro">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="erroButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Q7-hI-u3U"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsM-fw-yVf">
                                 <rect key="frame" x="155.5" y="245" width="103.5" height="30"/>
@@ -37,6 +40,9 @@
                                 <state key="normal" title="Sucesso">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sucessoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PVP-hD-aDO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX9-0G-361">
                                 <rect key="frame" x="279" y="245" width="103.5" height="30"/>
@@ -44,6 +50,9 @@
                                 <state key="normal" title="Perigo">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="perigoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iXX-jV-a5k"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Impact Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="So9-8Q-SAR">
                                 <rect key="frame" x="0.0" y="335" width="414" height="21"/>
@@ -54,23 +63,32 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfv-ZG-LS4">
                                 <rect key="frame" x="32" y="416" width="103.5" height="30"/>
                                 <color key="backgroundColor" red="0.27058823529999998" green="0.72549019609999998" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Erro">
+                                <state key="normal" title="Light">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="lightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CPz-Tn-T02"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skU-2C-vBu">
                                 <rect key="frame" x="155.5" y="416" width="103.5" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Sucesso">
+                                <state key="normal" title="Medium">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="mediumButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xV8-tX-ydc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLI-Vd-7ul">
                                 <rect key="frame" x="279" y="416" width="103.5" height="30"/>
                                 <color key="backgroundColor" red="0.2784313725" green="0.35686274509999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Perigo">
+                                <state key="normal" title="Heavy">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="heavyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjR-0z-oNa"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selection Feedback" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HI-2I-cdK">
                                 <rect key="frame" x="0.0" y="506" width="414" height="21"/>
@@ -85,6 +103,9 @@
                                 <state key="normal" title="Seleção">
                                     <color key="titleColor" red="0.96862745100000003" green="0.99607843139999996" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="selecaoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dXW-Ap-s92"/>
+                                </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qeh-UT-dlt">
                                 <rect key="frame" x="269" y="586" width="49" height="31"/>
