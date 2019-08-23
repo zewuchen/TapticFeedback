@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class ViewController: UIViewController {
 
@@ -52,8 +53,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func selecaoButton(_ sender: Any) {
-        let generator = UISelectionFeedbackGenerator()
-        generator.selectionChanged()
+//        let generator = UISelectionFeedbackGenerator()
+//        generator.selectionChanged()
+        AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
     }
 }
 
